@@ -10,6 +10,12 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    int i = 0;
+    while (i<100) {
+        std::cout << i << "\tseconds passed\n";
+        sleep(1);
+        i++;
+    }
+    std::cout << "Hello, World by zhijun\n";
     return 0;
 }
